@@ -1,0 +1,10 @@
+[package]
+name = "snake"
+version = "0.1.0"
+authors = ["cynic64 <f3bl@gmx.com>"]
+edition = "2018"
+
+[dependencies]
+# render-engine = { git = "https://github.com/cynic64/render-engine", rev = "1590b20b714609938d04bda9e55fd79aad7e776c" }
+render-engine = { path = "../render-engine" }
+rand = "0.7"
