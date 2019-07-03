@@ -799,6 +799,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "render-engine"
 version = "0.1.0"
+source = "git+https://github.com/cynic64/render-engine?rev=ddfde10d6527b45de3a40ba041546c70a483bbbd#ddfde10d6527b45de3a40ba041546c70a483bbbd"
 dependencies = [
  "cgmath 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "image 0.21.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -917,7 +918,7 @@ name = "snake"
 version = "0.1.0"
 dependencies = [
  "rand 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "render-engine 0.1.0",
+ "render-engine 0.1.0 (git+https://github.com/cynic64/render-engine?rev=ddfde10d6527b45de3a40ba041546c70a483bbbd)",
 ]
 
 [[package]]
@@ -1251,6 +1252,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum rayon-core 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ebbe0df8435ac0c397d467b6cad6d25543d06e8a019ef3f6af3c384597515bd2"
 "checksum rdrand 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "678054eb77286b51581ba43620cc911abf02758c91f93f479767aed0f90458b2"
 "checksum redox_syscall 0.1.54 (registry+https://github.com/rust-lang/crates.io-index)" = "12229c14a0f65c4f1cb046a3b52047cdd9da1f4b30f8a39c5063c8bae515e252"
+"checksum render-engine 0.1.0 (git+https://github.com/cynic64/render-engine?rev=ddfde10d6527b45de3a40ba041546c70a483bbbd)" = "<none>"
 "checksum rustc-demangle 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)" = "a7f4dccf6f4891ebcc0c39f9b6eb1a83b9bf5d747cb439ec6fba4f3b977038af"
 "checksum rustc_version 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a"
 "checksum rusttype 0.7.7 (registry+https://github.com/rust-lang/crates.io-index)" = "654103d61a05074b268a107cf6581ce120f0fc0115f2610ed9dfea363bb81139"
